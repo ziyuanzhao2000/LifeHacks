@@ -1,0 +1,5 @@
+The issue is this: although Github page allows you to host page directly from index.html in the base folder of a repository, or from the /doc folder, I was wondering how to do this for any subfolder in my repository. Then I may put multiple hyperlinks in my readme file linking to the different pages within a single repo. 
+
+The solution: First create a personal page by creating a personal repo named as your_user_name_here.github.io. Then enable github page for this repo, also remember to choose any scheme and put a simple index.html in your repo so your page will be live. Next, say you have a repo XXX with a subfolder YYY hosting a html page by index.html, then you can now access that page using the url: your_user_name.github.io/XXX/YYY. You can put this in the readme file of the repo, and then remember to enable github page for this repo as well.
+
+(Sorry for not capping a lot of words above :/)
